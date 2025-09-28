@@ -1,0 +1,38 @@
+name: mini_e_commerce_store
+description: A mini Flutter e-commerce store app (Blinkit/Zomato style)
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Google fonts
+  google_fonts: ^6.2.1
+
+  # Onboarding carousel
+  carousel_slider: ^5.0.0
+
+  # Extra icons
+  flutter_vector_icons: ^2.0.0
+
+  # Cupertino icons (default flutter package)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
